@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "es2022",
     "module": "node16",
-    "lib": ["ES2022", "DOM"],
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
     "moduleResolution": "node16",
     "rootDir": ".",
     "outDir": "build",
@@ -12,6 +15,7 @@
     "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
+    "noErrorTruncation": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -19,5 +23,8 @@
     "noImplicitThis": false,
     "strictNullChecks": false,
   },
-  "include": ["src", "__tests__"]
+  "include": [
+    "src",
+    "__tests__"
+  ]
 }

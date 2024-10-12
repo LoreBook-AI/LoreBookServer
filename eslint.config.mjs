@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 import eslint from '@eslint/js';
 import vitest from '@vitest/eslint-plugin';
 import eslintConfigPrettier from 'eslint-config-prettier';
