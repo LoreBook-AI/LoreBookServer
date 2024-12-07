@@ -318,8 +318,8 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -501,6 +501,8 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
     );
 
     public static $classMap = array (
+        'App\\Casts\\DurationCast' => __DIR__ . '/../..' . '/app/Casts/DurationCast.php',
+        'App\\Casts\\SpaceCast' => __DIR__ . '/../..' . '/app/Casts/SpaceCast.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
@@ -513,12 +515,22 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Models\\Language' => __DIR__ . '/../..' . '/app/Models/Language.php',
+        'App\\Models\\Proficiency' => __DIR__ . '/../..' . '/app/Models/Proficiency.php',
+        'App\\Models\\SpellSlot' => __DIR__ . '/../..' . '/app/Models/SpellSlot.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\ValueObjects\\Counter' => __DIR__ . '/../..' . '/app/ValueObjects/Counter.php',
+        'App\\ValueObjects\\Dice' => __DIR__ . '/../..' . '/app/ValueObjects/Dice.php',
+        'App\\ValueObjects\\Duration' => __DIR__ . '/../..' . '/app/ValueObjects/Duration.php',
+        'App\\ValueObjects\\Language' => __DIR__ . '/../..' . '/app/ValueObjects/Language.php',
+        'App\\ValueObjects\\Proficiency' => __DIR__ . '/../..' . '/app/ValueObjects/Proficiency.php',
+        'App\\ValueObjects\\Space' => __DIR__ . '/../..' . '/app/ValueObjects/Space.php',
+        'App\\ValueObjects\\SpellSlot' => __DIR__ . '/../..' . '/app/ValueObjects/SpellSlot.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/CorsService.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
