@@ -30,6 +30,11 @@ class Space
         return new self($feet / 3.28084);
     }
 
+    public function getMeters(): int
+    {
+        return $this->meters;
+    }
+
     public function toArray(): array
     {
         return [
