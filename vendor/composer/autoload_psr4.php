@@ -56,7 +56,7 @@ return array(
     'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src/PhpOption'),
     'NunoMaduro\\Collision\\' => array($vendorDir . '/nunomaduro/collision/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
-    'MongoDB\\Laravel\\' => array($vendorDir . '/jenssegers/mongodb/src'),
+    'MongoDB\\Laravel\\' => array($vendorDir . '/mongodb/laravel-mongodb/src'),
     'MongoDB\\' => array($vendorDir . '/mongodb/mongodb/src'),
     'Mockery\\' => array($vendorDir . '/mockery/mockery/library/Mockery'),
     'League\\Uri\\' => array($vendorDir . '/league/uri', $vendorDir . '/league/uri-interfaces'),
