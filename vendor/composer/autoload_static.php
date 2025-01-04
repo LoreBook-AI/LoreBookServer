@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad
+class ComposerStaticInite7dd48d806ba5d560c773b49c46386e5
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -388,7 +388,7 @@ class ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad
         ),
         'MongoDB\\Laravel\\' => 
         array (
-            0 => __DIR__ . '/..' . '/jenssegers/mongodb/src',
+            0 => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src',
         ),
         'MongoDB\\' => 
         array (
@@ -3559,49 +3559,49 @@ class ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad
         'MongoDB\\GridFS\\WritableStream' => __DIR__ . '/..' . '/mongodb/mongodb/src/GridFS/WritableStream.php',
         'MongoDB\\InsertManyResult' => __DIR__ . '/..' . '/mongodb/mongodb/src/InsertManyResult.php',
         'MongoDB\\InsertOneResult' => __DIR__ . '/..' . '/mongodb/mongodb/src/InsertOneResult.php',
-        'MongoDB\\Laravel\\Auth\\User' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Auth/User.php',
-        'MongoDB\\Laravel\\Bus\\MongoBatchRepository' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Bus/MongoBatchRepository.php',
-        'MongoDB\\Laravel\\Cache\\MongoLock' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Cache/MongoLock.php',
-        'MongoDB\\Laravel\\Cache\\MongoStore' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Cache/MongoStore.php',
-        'MongoDB\\Laravel\\CommandSubscriber' => __DIR__ . '/..' . '/jenssegers/mongodb/src/CommandSubscriber.php',
-        'MongoDB\\Laravel\\Concerns\\ManagesTransactions' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Concerns/ManagesTransactions.php',
-        'MongoDB\\Laravel\\Connection' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Connection.php',
-        'MongoDB\\Laravel\\Eloquent\\Builder' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/Builder.php',
-        'MongoDB\\Laravel\\Eloquent\\Casts\\BinaryUuid' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/Casts/BinaryUuid.php',
-        'MongoDB\\Laravel\\Eloquent\\Casts\\ObjectId' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/Casts/ObjectId.php',
-        'MongoDB\\Laravel\\Eloquent\\DocumentModel' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/DocumentModel.php',
-        'MongoDB\\Laravel\\Eloquent\\EmbedsRelations' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/EmbedsRelations.php',
-        'MongoDB\\Laravel\\Eloquent\\HasSchemaVersion' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/HasSchemaVersion.php',
-        'MongoDB\\Laravel\\Eloquent\\HybridRelations' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/HybridRelations.php',
-        'MongoDB\\Laravel\\Eloquent\\MassPrunable' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/MassPrunable.php',
-        'MongoDB\\Laravel\\Eloquent\\Model' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/Model.php',
-        'MongoDB\\Laravel\\Eloquent\\SoftDeletes' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Eloquent/SoftDeletes.php',
-        'MongoDB\\Laravel\\Helpers\\EloquentBuilder' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Helpers/EloquentBuilder.php',
-        'MongoDB\\Laravel\\Helpers\\QueriesRelationships' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Helpers/QueriesRelationships.php',
-        'MongoDB\\Laravel\\MongoDBBusServiceProvider' => __DIR__ . '/..' . '/jenssegers/mongodb/src/MongoDBBusServiceProvider.php',
-        'MongoDB\\Laravel\\MongoDBServiceProvider' => __DIR__ . '/..' . '/jenssegers/mongodb/src/MongoDBServiceProvider.php',
-        'MongoDB\\Laravel\\Query\\AggregationBuilder' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Query/AggregationBuilder.php',
-        'MongoDB\\Laravel\\Query\\Builder' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Query/Builder.php',
-        'MongoDB\\Laravel\\Query\\Grammar' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Query/Grammar.php',
-        'MongoDB\\Laravel\\Query\\Processor' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Query/Processor.php',
-        'MongoDB\\Laravel\\Queue\\MongoConnector' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Queue/MongoConnector.php',
-        'MongoDB\\Laravel\\Queue\\MongoJob' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Queue/MongoJob.php',
-        'MongoDB\\Laravel\\Queue\\MongoQueue' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Queue/MongoQueue.php',
-        'MongoDB\\Laravel\\Relations\\BelongsTo' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/BelongsTo.php',
-        'MongoDB\\Laravel\\Relations\\BelongsToMany' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/BelongsToMany.php',
-        'MongoDB\\Laravel\\Relations\\EmbedsMany' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/EmbedsMany.php',
-        'MongoDB\\Laravel\\Relations\\EmbedsOne' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/EmbedsOne.php',
-        'MongoDB\\Laravel\\Relations\\EmbedsOneOrMany' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/EmbedsOneOrMany.php',
-        'MongoDB\\Laravel\\Relations\\HasMany' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/HasMany.php',
-        'MongoDB\\Laravel\\Relations\\HasOne' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/HasOne.php',
-        'MongoDB\\Laravel\\Relations\\MorphMany' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/MorphMany.php',
-        'MongoDB\\Laravel\\Relations\\MorphTo' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/MorphTo.php',
-        'MongoDB\\Laravel\\Relations\\MorphToMany' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Relations/MorphToMany.php',
-        'MongoDB\\Laravel\\Schema\\Blueprint' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Schema/Blueprint.php',
-        'MongoDB\\Laravel\\Schema\\Builder' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Schema/Builder.php',
-        'MongoDB\\Laravel\\Schema\\Grammar' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Schema/Grammar.php',
-        'MongoDB\\Laravel\\Validation\\DatabasePresenceVerifier' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Validation/DatabasePresenceVerifier.php',
-        'MongoDB\\Laravel\\Validation\\ValidationServiceProvider' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Validation/ValidationServiceProvider.php',
+        'MongoDB\\Laravel\\Auth\\User' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Auth/User.php',
+        'MongoDB\\Laravel\\Bus\\MongoBatchRepository' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Bus/MongoBatchRepository.php',
+        'MongoDB\\Laravel\\Cache\\MongoLock' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Cache/MongoLock.php',
+        'MongoDB\\Laravel\\Cache\\MongoStore' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Cache/MongoStore.php',
+        'MongoDB\\Laravel\\CommandSubscriber' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/CommandSubscriber.php',
+        'MongoDB\\Laravel\\Concerns\\ManagesTransactions' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Concerns/ManagesTransactions.php',
+        'MongoDB\\Laravel\\Connection' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Connection.php',
+        'MongoDB\\Laravel\\Eloquent\\Builder' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/Builder.php',
+        'MongoDB\\Laravel\\Eloquent\\Casts\\BinaryUuid' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/Casts/BinaryUuid.php',
+        'MongoDB\\Laravel\\Eloquent\\Casts\\ObjectId' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/Casts/ObjectId.php',
+        'MongoDB\\Laravel\\Eloquent\\DocumentModel' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/DocumentModel.php',
+        'MongoDB\\Laravel\\Eloquent\\EmbedsRelations' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/EmbedsRelations.php',
+        'MongoDB\\Laravel\\Eloquent\\HasSchemaVersion' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/HasSchemaVersion.php',
+        'MongoDB\\Laravel\\Eloquent\\HybridRelations' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/HybridRelations.php',
+        'MongoDB\\Laravel\\Eloquent\\MassPrunable' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/MassPrunable.php',
+        'MongoDB\\Laravel\\Eloquent\\Model' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/Model.php',
+        'MongoDB\\Laravel\\Eloquent\\SoftDeletes' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Eloquent/SoftDeletes.php',
+        'MongoDB\\Laravel\\Helpers\\EloquentBuilder' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Helpers/EloquentBuilder.php',
+        'MongoDB\\Laravel\\Helpers\\QueriesRelationships' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Helpers/QueriesRelationships.php',
+        'MongoDB\\Laravel\\MongoDBBusServiceProvider' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/MongoDBBusServiceProvider.php',
+        'MongoDB\\Laravel\\MongoDBServiceProvider' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/MongoDBServiceProvider.php',
+        'MongoDB\\Laravel\\Query\\AggregationBuilder' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Query/AggregationBuilder.php',
+        'MongoDB\\Laravel\\Query\\Builder' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Query/Builder.php',
+        'MongoDB\\Laravel\\Query\\Grammar' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Query/Grammar.php',
+        'MongoDB\\Laravel\\Query\\Processor' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Query/Processor.php',
+        'MongoDB\\Laravel\\Queue\\MongoConnector' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Queue/MongoConnector.php',
+        'MongoDB\\Laravel\\Queue\\MongoJob' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Queue/MongoJob.php',
+        'MongoDB\\Laravel\\Queue\\MongoQueue' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Queue/MongoQueue.php',
+        'MongoDB\\Laravel\\Relations\\BelongsTo' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/BelongsTo.php',
+        'MongoDB\\Laravel\\Relations\\BelongsToMany' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/BelongsToMany.php',
+        'MongoDB\\Laravel\\Relations\\EmbedsMany' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/EmbedsMany.php',
+        'MongoDB\\Laravel\\Relations\\EmbedsOne' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/EmbedsOne.php',
+        'MongoDB\\Laravel\\Relations\\EmbedsOneOrMany' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/EmbedsOneOrMany.php',
+        'MongoDB\\Laravel\\Relations\\HasMany' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/HasMany.php',
+        'MongoDB\\Laravel\\Relations\\HasOne' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/HasOne.php',
+        'MongoDB\\Laravel\\Relations\\MorphMany' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/MorphMany.php',
+        'MongoDB\\Laravel\\Relations\\MorphTo' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/MorphTo.php',
+        'MongoDB\\Laravel\\Relations\\MorphToMany' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Relations/MorphToMany.php',
+        'MongoDB\\Laravel\\Schema\\Blueprint' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Schema/Blueprint.php',
+        'MongoDB\\Laravel\\Schema\\Builder' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Schema/Builder.php',
+        'MongoDB\\Laravel\\Schema\\Grammar' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Schema/Grammar.php',
+        'MongoDB\\Laravel\\Validation\\DatabasePresenceVerifier' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Validation/DatabasePresenceVerifier.php',
+        'MongoDB\\Laravel\\Validation\\ValidationServiceProvider' => __DIR__ . '/..' . '/mongodb/laravel-mongodb/src/Validation/ValidationServiceProvider.php',
         'MongoDB\\MapReduceResult' => __DIR__ . '/..' . '/mongodb/mongodb/src/MapReduceResult.php',
         'MongoDB\\Model\\BSONArray' => __DIR__ . '/..' . '/mongodb/mongodb/src/Model/BSONArray.php',
         'MongoDB\\Model\\BSONDocument' => __DIR__ . '/..' . '/mongodb/mongodb/src/Model/BSONDocument.php',
@@ -7333,9 +7333,9 @@ class ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite7dd48d806ba5d560c773b49c46386e5::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite7dd48d806ba5d560c773b49c46386e5::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite7dd48d806ba5d560c773b49c46386e5::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -1,12 +1,4 @@
 <?php return array (
-  'jenssegers/mongodb' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'MongoDB\\Laravel\\MongoDBServiceProvider',
-      1 => 'MongoDB\\Laravel\\MongoDBBusServiceProvider',
-    ),
-  ),
   'laravel/pail' => 
   array (
     'providers' => 
@@ -33,6 +25,14 @@
     'providers' => 
     array (
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    ),
+  ),
+  'mongodb/laravel-mongodb' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'MongoDB\\Laravel\\MongoDBServiceProvider',
+      1 => 'MongoDB\\Laravel\\MongoDBBusServiceProvider',
     ),
   ),
   'nesbot/carbon' => 
