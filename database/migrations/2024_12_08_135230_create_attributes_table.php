@@ -11,13 +11,13 @@ class CreateAttributesTable extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up(): void
     {
-        Schema::create('attributes', function (Blueprint $table) {
+        Schema::create(table: 'attributes', callback: function (Blueprint $table): void {
             $table->id();
-            $table->string('name');
-            $table->text('description');
-            $table->integer('value')->default(10);
+            $table->string(column: 'name');
+            $table->text(column: 'description');
+            $table->integer(column: 'value')->default(value: 10);
             $table->timestamps();
         });
     }
@@ -27,8 +27,8 @@ class CreateAttributesTable extends Migration
      *
      * @return void
      */
-    public function down()
+    public function down(): void
     {
-        Schema::dropIfExists('attributes');
+        Schema::dropIfExists(table: 'attributes');
     }
 }

@@ -16,12 +16,12 @@ class Language extends Model
 
     public function proficiencies(): MorphMany
     {
-        return $this->morphMany(Proficiency::class, 'proficienttable');
+        return $this->morphMany(related: Proficiency::class, name: 'proficienttable');
     }
 
     public function toValueObject(): LanguageValue
     {
-        return LanguageValue::fromArray([
+        return LanguageValue::fromArray(data: [
             "name" => $this->name,
             "description" => $this->description,
             "origin" => $this->origin

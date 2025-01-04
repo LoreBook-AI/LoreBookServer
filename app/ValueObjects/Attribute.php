@@ -20,15 +20,15 @@ class Attribute implements JsonSerializable
     public static function fromArray(array $data): self
     {
         return new self(
-            $data['name'],
-            $data['description'],
-            $data['value'] ?? 10
+            name: $data['name'],
+            description: $data['description'],
+            value: $data['value'] ?? 10
         );
     }
 
     public function getBonus(): int
     {
-        return floor(($this->value - 10) / 2);
+        return floor(num: ($this->value - 10) / 2);
     }
 
     public function jsonSerialize(): array

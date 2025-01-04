@@ -36,27 +36,12 @@ class SpellSlot extends Model
     public static function fromValueObject(SpellSlotValue $spellSlot): self
     {
         $data = $spellSlot->jsonSerialize();
-        return new self([
+        return new self(attributes: [
             'level' => $data['level'],
             'school' => $data['school'],
             'origin' => $data['origin'],
             'type' => $data['type'],
             'counter_data' => $data['counter']
         ]);
-    }
-
-    public function scopeByLevel($query, int $level)
-    {
-        return $query->where('level', $level);
-    }
-
-    public function scopeBySchool($query, string $school)
-    {
-        return $query->where('school', $school);
-    }
-
-    public function scopeByType($query, string $type)
-    {
-        return $query->where('type', $type);
     }
 }

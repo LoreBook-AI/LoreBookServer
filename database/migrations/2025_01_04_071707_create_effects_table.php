@@ -10,14 +10,15 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create(table: 'personal_access_tokens', callback: function (Blueprint $table): void {
+        Schema::create(table: 'effects', callback: function (Blueprint $table): void {
             $table->id();
-            $table->morphs(name: 'tokenable');
             $table->string(column: 'name');
-            $table->string(column: 'token', length: 64)->unique();
-            $table->text(column: 'abilities')->nullable();
-            $table->timestamp(column: 'last_used_at')->nullable();
-            $table->timestamp(column: 'expires_at')->nullable();
+            $table->string(column: "description");
+            $table->string(column: "duration");
+            $table->string(column: "type");
+            $table->json(column: "attribute");
+            $table->string(column: "operator");
+            $table->float(column: "valueEffect");
             $table->timestamps();
         });
     }
@@ -27,6 +28,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists(table: 'personal_access_tokens');
+        Schema::dropIfExists('effects');
     }
 };

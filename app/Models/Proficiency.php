@@ -14,9 +14,6 @@ class Proficiency extends Model
         'description'
     ];
 
-    /**
-     * Get the parent proficienttable model (Weapon, Language, etc.).
-     */
     public function proficienttable(): MorphTo
     {
         return $this->morphTo();
@@ -29,13 +26,4 @@ class Proficiency extends Model
         'description' => 'nullable|string',
     ];
 
-    public function scopeWeapons($query)
-    {
-        return $query->where('type', 'weapon');
-    }
-
-    public function scopeLanguages($query)
-    {
-        return $query->where('type', 'language');
-    }
 }
